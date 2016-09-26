@@ -1615,7 +1615,6 @@ packages:
 
     "Sergey Alirzaev <zl29ah@gmail.com> @l29ah":
         - monad-peel
-        - NineP
         # GHC 8 - Network-NineP
 
     "Oliver Charles <ollie@ocharles.org.uk> @ocharles":
@@ -2435,9 +2434,9 @@ packages:
 
     "Dominic Orchard <dom.orchard@gmail.com> @dorchard":
         - array-memoize
-        - camfort
+        # - camfort # BLOCKED haskell-src-exts 1.18 via fortran-src
         # - codo-notation # BLOCKED haskell-src-exts 1.18
-        - fortran-src
+        # - fortran-src # haskell-src-exts 1.18 via derive
         # 0.57 Compilation failure https://github.com/fpco/stackage/pull/1710#issuecomment-235067168 - ixmonad
         - language-fortran
 
@@ -2481,6 +2480,7 @@ packages:
 
     "Travis Whitaker <pi.boy.travis@gmail.com>":
         - cpuinfo
+        - lmdb
         - rdf
 
     "Juan Pedro Villa Isaza @jpvillaisaza":
