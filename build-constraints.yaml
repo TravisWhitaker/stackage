@@ -1975,6 +1975,7 @@ packages:
         - IntervalMap
 
     "Michele Lacchia <michelelacchia@gmail.com> @rubik":
+        # GHC 8 - argon
         - docopt
         - pathwalk
 
@@ -2480,6 +2481,7 @@ packages:
 
     "Travis Whitaker <pi.boy.travis@gmail.com>":
         - cpuinfo
+        - lmdb
         - rdf
 
     "Juan Pedro Villa Isaza @jpvillaisaza":
